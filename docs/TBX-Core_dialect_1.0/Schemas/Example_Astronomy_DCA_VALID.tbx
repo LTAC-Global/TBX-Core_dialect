@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="TBXcoreStructV03_TBX-Core_integrated.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="TBX-Core.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/LTAC-Global/TBX-Core_dialect/master/Schemas/TBXcoreStructV03_TBX-Core_integrated.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/LTAC-Global/TBX-Core_dialect/master/Schemas/TBX-Core.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <tbx type="TBX-Core" style="dca" xml:lang="en" xmlns="urn:iso:std:iso:30042:ed:3.0">
 	<tbxHeader>
 		<fileDesc>
