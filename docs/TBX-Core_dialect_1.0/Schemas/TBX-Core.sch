@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2"
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
-    <ns uri="urn:iso:std:iso:30042:ed:3.0" prefix="tbx" />
+    <ns uri="urn:iso:std:iso:30042:ed-2" prefix="tbx" />
     
     <pattern id="coreEnforecement">
         <rule context="tbx:termNote">
@@ -40,7 +40,7 @@
         <rule context="tbx:tbx">
             <assert test="attribute::type='TBX-Core'">The name of this dialect should be TBX-Core</assert>
         </rule>
-        <rule context="*[not(namespace-uri() = 'urn:iso:std:iso:30042:ed:3.0')]">
+        <rule context="*[not(namespace-uri() = 'urn:iso:std:iso:30042:ed-2')]">
             <assert test="false()">No elements from foreign namespaces are permitted in the TBX-Core dialect.</assert>
         </rule>
     </pattern>
